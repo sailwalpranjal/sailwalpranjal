@@ -1,5 +1,6 @@
+/*
 🚀 Pranjal Sailwal - Full-Stack Artisan & Digital Voyager 🌟
- 
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -26,6 +27,7 @@ public:
         std::cout << "With an unwavering command over languages like JavaScript and Python, I sculpt interactive web and mobile ecosystems with ease." << std::endl;
         std::cout << "My code is the harmonious blend of artistry and functionality, and it's all fueled by the elixir of life – caffeine!" << std::endl;
     }
+    */
 
     void skillsAndPassions() {
         std::cout << "My toolkit is adorned with the following languages and tools: " << std::endl;
@@ -69,3 +71,4 @@ int main() {
     
     return 0;
 }
+****
