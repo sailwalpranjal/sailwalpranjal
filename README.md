@@ -56,8 +56,7 @@ Delve into the array of languages and tools that I proficiently work with:
 
 Let's connect and stay updated on various platforms:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn)](www.linkedin.com/in/pranjal-sailwal)
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white&label=GitHub)](https://github.com/sailwalpranjal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn)](https://www.linkedin.com/in/pranjal-sailwal/)
 [![Twitter](https://img.shields.io/badge/Twitter-lightblue?style=for-the-badge&logo=twitter&logoColor=white&label=Twitter)](https://twitter.com/sailwalpranjal)
 [![Dev.to](https://img.shields.io/badge/Dev.to-black?style=for-the-badge&logo=dev.to&logoColor=white&label=Dev.to)](https://dev.to/sailwalpranjal)
 [![Medium](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white&label=Medium)](https://medium.com/@pranjalsailwal09)
