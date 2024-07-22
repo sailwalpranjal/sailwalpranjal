@@ -1,15 +1,16 @@
-# Welcome to my Profile! 🚀
+# Welcome to my Profile! 
 
 ## About Me
 
-Greetings! I am Pranjal Sailwal, a dedicated student pursuing a Bachelor's in Technology with a major in Computer Science at Graphic Era Hill University, Dehradun. I am deeply passionate about software development and enjoy creating innovative projects while exploring cutting-edge technologies. Here's a glimpse into my journey:
+I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
 
-- 🌱 Currently, I am immersed in mastering various programming languages and frameworks to enhance my skills.
-- 👯 I am eagerly seeking opportunities to collaborate on stimulating open-source projects.
-- 💬 Feel free to reach out to me for any queries or discussions related to technology or programming; I am always eager to assist!
-- 📫 You can connect with me via email: [pranjalsailwal09@gmail.com](mailto:pranjalsailwal09@gmail.com)
-- 😄 Pronouns: He/Him
+- **Skill Development:** I am actively enhancing my proficiency in various programming languages and frameworks to stay at the forefront of technology.
+- **Collaboration:** I am seeking opportunities to contribute to challenging open-source projects and collaborate with like-minded professionals.
+- **Engagement:** I am always open to discussions and inquiries related to technology and programming. Please do not hesitate to reach out to me.
+- **Contact:** You can connect with me via email at [pranjalsailwal09@gmail.com](mailto:pranjalsailwal09@gmail.com).
+- **Pronouns:** He/Him
 
+Thank you for taking the time to visit my profile. I look forward to connecting with you.
 ## Animated Name
 
 Witness the dynamism of my name with this captivating animation:
@@ -18,9 +19,7 @@ Witness the dynamism of my name with this captivating animation:
 
 ## Most Used Language
 
-Explore my proficiency in various programming languages through this dynamically updated visualization:
-
-(Visualization to be added soon...)
+<img src="https://myreadme.vercel.app/api/embed/sailwalpranjal?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
 ## Proficient Languages and Technologies
 
