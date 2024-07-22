@@ -1,13 +1,31 @@
 
 # Welcome to my Profile! 
 
+## Name and Greeting
+
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <!-- Name GIF -->
+  <div style="flex: 4; text-align: left; padding-right: 5px; overflow: hidden; position: relative;">
+    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: cover; width: 100%; height: auto; max-height: 100%;" />
+  </div>
+  
+  <!-- Greeting Video -->
+  <div style="flex: 1; text-align: right;">
+    <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 8px; max-height: 100%;">
+      <source src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+## Name
 <div align="center">
     <img src="Components/Name.gif" alt="Name GIF" />
 </div>
 
 ## About Me
 
-I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
+I am currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
 
 - **Skill Development:** I am actively enhancing my proficiency in various programming languages and frameworks to stay at the forefront of technology.
 - **Collaboration:** I am seeking opportunities to contribute to challenging open-source projects and collaborate with like-minded professionals.
@@ -93,13 +111,13 @@ Thank you for taking the time to visit my profile. I look forward to connecting 
   <table style="width: 100%; max-width: 800px; border-collapse: collapse; text-align: center;">
     <tr>
       <td style="border: none; padding: 10px;">
-        <a href="https://github.com/username/username">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=username&repo=username&theme=highcontrast" alt="Sailwal Pranjal Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+        <a href="https://github.com/sailwalpranjal/sailwalpranjal">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=sailwalpranjal&theme=highcontrast" alt="Sailwal Pranjal Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
         </a>
       </td>
       <td style="border: none; padding: 10px;">
-        <a href="https://github.com/username/LeetCode">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=username&repo=LeetCode&theme=highcontrast" alt="LeetCode Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+        <a href="https://github.com/sailwalpranjal/LeetCode">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=LeetCode&theme=highcontrast" alt="LeetCode Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
         </a>
       </td>
     </tr>
@@ -140,13 +158,13 @@ Embark on a journey of learning with my insightful blog posts and tutorials:
 
 ---
 
-🌟 **Thank you for visiting!** ✨  
-If you found value in my repositories, consider giving them a star ⭐.  
-Let's embark on a journey to build something **extraordinary** together! 🚀  
-**Let's collaborate and innovate!** 💡
+**Thank you for visiting!** 
+If you found value in my repositories, consider giving them a star . 
+Let's embark on a journey to build something **extraordinary** together! 
+**Let's collaborate and innovate!** 
 
 <p align="right">
-    <img src="https://profile-counter.glitch.me/{username}/count.svg" alt="username :: Visitor's Count" />
+    <img src="https://profile-counter.glitch.me/{sailwalpranjal}/count.svg" alt="sailwalpranjal :: Visitor's Count" />
 </p>
 
 
