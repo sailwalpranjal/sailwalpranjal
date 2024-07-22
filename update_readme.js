@@ -1,5 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
+const path = require('path');
 
 const username = 'sailwalpranjal';
 const maxRepos = 6;
@@ -11,8 +12,8 @@ async function fetchRepos() {
     repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
     return repos.slice(0, maxRepos);
   } catch (error) {
-    console.error('Error fetching repositories:', error);
-    throw error;
+    console.error('Error fetching repositories:', error.message);
+    return []; // Return an empty array if there's an error
   }
 }
 
@@ -49,11 +50,11 @@ async function updateReadme(repos) {
 ### Featured Repositories
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
-  ${repos.map(repo => `
+  ${repos.length > 0 ? repos.map(repo => `
   <a href="${repo.html_url}">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=highcontrast" alt="Repository Card" style="width: 100%; max-width: 400px; margin: 10px;" />
   </a>
-  `).join('')}
+  `).join('') : '<p>No repositories found.</p>'}
 </div>
 
 ## Reimagined ReadMe
@@ -64,10 +65,11 @@ async function updateReadme(repos) {
 `;
 
   try {
-    fs.writeFileSync('README.md', readmeContent);
+    const filePath = path.join(__dirname, 'README.md');
+    fs.writeFileSync(filePath, readmeContent);
+    console.log('README.md has been updated successfully.');
   } catch (error) {
-    console.error('Error writing README.md:', error);
-    throw error;
+    console.error('Error writing README.md:', error.message);
   }
 }
 
@@ -76,7 +78,7 @@ async function main() {
     const repos = await fetchRepos();
     await updateReadme(repos);
   } catch (error) {
-    console.error('Error updating README:', error);
+    console.error('Error updating README:', error.message);
   }
 }
 
