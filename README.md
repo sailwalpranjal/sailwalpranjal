@@ -13,9 +13,12 @@ I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Compute
 Thank you for taking the time to visit my profile. I look forward to connecting with you.
 ## Animated Name
 
-Witness the dynamism of my name with this captivating animation:
+<div align="center">
+    <img src="Components/Name.gif" alt="Name GIF" />
+</div>
 
-(Animation to be added soon...)
+
+
 
 ## Most Used Language
 
@@ -91,5 +94,10 @@ Embark on a journey of learning with my insightful blog posts and tutorials:
 If you found value in my repositories, consider giving them a star ⭐.  
 Let's embark on a journey to build something **extraordinary** together! 🚀  
 **Let's collaborate and innovate!** 💡
+
+<p align="right">
+    <img src="https://profile-counter.glitch.me/{sailwalpranjal}/count.svg" alt="sailwalpranjal :: Visitor's Count" />
+</p>
+
 
 ---
