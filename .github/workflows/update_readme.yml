@@ -19,7 +19,8 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install axios
 
       - name: Run update script
         env:
@@ -41,4 +42,3 @@ jobs:
           
           # Echo message if no changes
           echo "No changes to commit"
-
