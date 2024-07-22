@@ -33,15 +33,12 @@
 ### Featured Repositories
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
-  
   <a href="https://github.com/sailwalpranjal/sailwalpranjal" style="margin: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=sailwalpranjal&theme=highcontrast" alt="Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=sailwalpranjal&theme=highcontrast" alt="Sailwal Pranjal Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
   </a>
-  
-  <a href="https://github.com/sailwalpranjal/Leetcode" style="margin: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=Leetcode&theme=highcontrast" alt="Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+  <a href="https://github.com/sailwalpranjal/LeetCode" style="margin: 10px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=LeetCode&theme=highcontrast" alt="LeetCode Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
   </a>
-  
 </div>
 
 ## Reimagined ReadMe
