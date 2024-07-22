@@ -5,10 +5,15 @@ const username = 'sailwalpranjal';
 const maxRepos = 6;
 
 async function fetchRepos() {
-  const response = await axios.get(`https://api.github.com/users/${username}/repos?sort=updated&per_page=100`);
-  const repos = response.data;
-  repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
-  return repos.slice(0, maxRepos);
+  try {
+    const response = await axios.get(`https://api.github.com/users/${username}/repos?sort=updated&per_page=100`);
+    const repos = response.data;
+    repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
+    return repos.slice(0, maxRepos);
+  } catch (error) {
+    console.error('Error fetching repositories:', error);
+    throw error;
+  }
 }
 
 async function updateReadme(repos) {
@@ -58,12 +63,21 @@ async function updateReadme(repos) {
 </div>
 `;
 
-  fs.writeFileSync('README.md', readmeContent);
+  try {
+    fs.writeFileSync('README.md', readmeContent);
+  } catch (error) {
+    console.error('Error writing README.md:', error);
+    throw error;
+  }
 }
 
 async function main() {
-  const repos = await fetchRepos();
-  await updateReadme(repos);
+  try {
+    const repos = await fetchRepos();
+    await updateReadme(repos);
+  } catch (error) {
+    console.error('Error updating README:', error);
+  }
 }
 
-main().catch(console.error);
+main();
