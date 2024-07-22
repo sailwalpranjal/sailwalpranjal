@@ -1,5 +1,9 @@
 # Welcome to my Profile! 
 
+<div align="center">
+    <img src="Components/Name.gif" alt="Name GIF" />
+</div>
+
 ## About Me
 
 I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
@@ -11,39 +15,50 @@ I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Compute
 - **Pronouns:** He/Him
 
 Thank you for taking the time to visit my profile. I look forward to connecting with you.
-## Animated Name
 
-## Most Used Language
-
-<img src="https://myreadme.vercel.app/api/embed/sailwalpranjal?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
-
-## Proficient Languages and Technologies
-
-Discover the wide spectrum of languages and technologies I proficiently work with, adorned with their respective icons:
+## Technologies I've Engaged With
 
 <div align="center">
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&label=&labelColor=F7DF1E&color=F7DF1E&logoWidth=60&logoHeight=60&shape=circle)](https://www.javascript.com/)
+  
+<!-- Programming Languages -->
 [![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python&logoColor=white&label=&labelColor=3776AB&color=3776AB&logoWidth=60&logoHeight=60&shape=square)](https://www.python.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&label=&labelColor=F7DF1E&color=F7DF1E&logoWidth=60&logoHeight=60&shape=circle)](https://www.javascript.com/)
 [![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java&logoColor=white&label=&labelColor=007396&color=007396&logoWidth=60&logoHeight=60&shape=diamond)](https://www.java.com/)
 [![C++](https://img.shields.io/badge/C++-green?style=for-the-badge&logo=c%2B%2B&logoColor=white&label=&labelColor=00599C&color=00599C&logoWidth=60&logoHeight=60&shape=triangle)](https://www.cplusplus.com/)
+[![Go](https://img.shields.io/badge/Go-blue?style=for-the-badge&logo=go&logoColor=white&label=&labelColor=00ADD8&color=00ADD8&logoWidth=60&logoHeight=60&shape=hexagon)](https://golang.org/)
+[![SQL](https://img.shields.io/badge/SQL-yellowgreen?style=for-the-badge&logo=mysql&logoColor=white&label=&labelColor=4479A1&color=4479A1&logoWidth=60&logoHeight=60&shape=circle)](https://www.w3schools.com/sql/)
 [![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white&label=&labelColor=E34F26&color=E34F26&logoWidth=60&logoHeight=60&shape=hexagon)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet?style=for-the-badge&logo=css3&logoColor=white&label=&labelColor=1572B6&color=1572B6&logoWidth=60&logoHeight=60&shape=star)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-[![SQL](https://img.shields.io/badge/SQL-yellowgreen?style=for-the-badge&logo=mysql&logoColor=white&label=&labelColor=4479A1&color=4479A1&logoWidth=60&logoHeight=60&shape=circle)](https://www.w3schools.com/sql/)
-[![PHP](https://img.shields.io/badge/PHP-purple?style=for-the-badge&logo=php&logoColor=white&label=&labelColor=777BB4&color=777BB4&logoWidth=60&logoHeight=60&shape=square)](https://www.php.net/)
-[![Ruby](https://img.shields.io/badge/Ruby-red?style=for-the-badge&logo=ruby&logoColor=white&label=&labelColor=CC342D&color=CC342D&logoWidth=60&logoHeight=60&shape=diamond)](https://www.ruby-lang.org/en/)
-[![Swift](https://img.shields.io/badge/Swift-orange?style=for-the-badge&logo=swift&logoColor=white&label=&labelColor=FA7343&color=FA7343&logoWidth=60&logoHeight=60&shape=triangle)](https://developer.apple.com/swift/)
-[![Go](https://img.shields.io/badge/Go-blue?style=for-the-badge&logo=go&logoColor=white&label=&labelColor=00ADD8&color=00ADD8&logoWidth=60&logoHeight=60&shape=hexagon)](https://golang.org/)
-[![Rust](https://img.shields.io/badge/Rust-brown?style=for-the-badge&logo=rust&logoColor=white&label=&labelColor=000000&color=000000&logoWidth=60&logoHeight=60&shape=star)](https://www.rust-lang.org/)
-  
+<!-- Databases -->
+[![SQLite](https://img.shields.io/badge/SQLite-blue?style=for-the-badge&logo=sqlite&logoColor=white&label=&labelColor=003B57&color=003B57&logoWidth=60&logoHeight=60&shape=circle)](https://www.sqlite.org/)
+
+<!-- Frameworks & Tools -->
+[![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker&logoColor=white&label=&labelColor=2496ED&color=2496ED&logoWidth=60&logoHeight=60&shape=hexagon)](https://www.docker.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-blue?style=for-the-badge&logo=tailwindcss&logoColor=white&label=&labelColor=38B2AC&color=38B2AC&logoWidth=60&logoHeight=60&shape=square)](https://tailwindcss.com/)
+
+<!-- Additional Tools and Technologies -->
+[![Git](https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git&logoColor=white&label=&labelColor=F05032&color=F05032&logoWidth=60&logoHeight=60&shape=circle)](https://git-scm.com/)
+[![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux&logoColor=white&label=&labelColor=000000&color=000000&logoWidth=60&logoHeight=60&shape=square)](https://www.linux.org/)
+[![Bash](https://img.shields.io/badge/Bash-green?style=for-the-badge&logo=gnu-bash&logoColor=white&label=&labelColor=4EAA25&color=4EAA25&logoWidth=60&logoHeight=60&shape=circle)](https://www.gnu.org/software/bash/)
+[![HTTP](https://img.shields.io/badge/HTTP-9B4F77?style=for-the-badge&logo=http&logoColor=white&label=&labelColor=9B4F77&color=9B4F77&logoWidth=60&logoHeight=60&shape=hexagon)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+[![JSON](https://img.shields.io/badge/JSON-lightgrey?style=for-the-badge&logo=json&logoColor=white&label=&labelColor=005A1F&color=005A1F&logoWidth=60&logoHeight=60&shape=circle)](https://www.json.org/)
+
+[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-black?style=for-the-badge&logo=kali-linux&logoColor=white&label=&labelColor=000000&color=000000&logoWidth=60&logoHeight=60&shape=square)](https://www.kali.org/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-blue?style=for-the-badge&logo=visual-studio-code&logoColor=white&label=&labelColor=007ACC&color=007ACC&logoWidth=60&logoHeight=60&shape=hexagon)](https://code.visualstudio.com/)
+[![VS Code Insider](https://img.shields.io/badge/VS%20Code%20Insider-darkblue?style=for-the-badge&logo=visual-studio-code&logoColor=white&label=&labelColor=0068C6&color=0068C6&logoWidth=60&logoHeight=60&shape=circle)](https://insiders.code.visualstudio.com/)
+[![VS Code Community](https://img.shields.io/badge/VS%20Code%20Community-darkblue?style=for-the-badge&logo=visual-studio-code&logoColor=white&label=&labelColor=1E1E1E&color=1E1E1E&logoWidth=60&logoHeight=60&shape=square)](https://code.visualstudio.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-orange?style=for-the-badge&logo=jupyter&logoColor=white&label=&labelColor=F37626&color=F37626&logoWidth=60&logoHeight=60&shape=hexagon)](https://jupyter.org/)
+[![LaTeX](https://img.shields.io/badge/LaTeX-blue?style=for-the-badge&logo=latex&logoColor=white&label=&labelColor=008080&color=008080&logoWidth=60&logoHeight=60&shape=circle)](https://www.latex-project.org/)
+[![Markdown](https://img.shields.io/badge/Markdown-black?style=for-the-badge&logo=markdown&logoColor=white&label=&labelColor=000000&color=000000&logoWidth=60&logoHeight=60&shape=square)](https://daringfireball.net/projects/markdown/)
+[![RStudio](https://img.shields.io/badge/RStudio-blue?style=for-the-badge&logo=r&logoColor=white&label=&labelColor=75AADB&color=75AADB&logoWidth=60&logoHeight=60&shape=hexagon)](https://rstudio.com/)
+[![WSL](https://img.shields.io/badge/WSL-darkgreen?style=for-the-badge&logo=windows-subsystem-for-linux&logoColor=white&label=&labelColor=000000&color=000000&logoWidth=60&logoHeight=60&shape=square)](https://docs.microsoft.com/en-us/windows/wsl/)
+[![YAML](https://img.shields.io/badge/YAML-darkblue?style=for-the-badge&logo=yaml&logoColor=white&label=&labelColor=000000&color=000000&logoWidth=60&logoHeight=60&shape=hexagon)](https://yaml.org/)
+
 </div>
 
-## Languages and Tools
 
-Delve into the array of languages and tools that I proficiently work with:
 
-(Visualization to be added soon...)
 
 ## Connect with Me
 
@@ -55,19 +70,7 @@ Let's connect and stay updated on various platforms:
 [![Medium](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white&label=Medium)](https://medium.com/@pranjalsailwal09)
 [![Instagram](https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white&label=Instagram)](https://www.instagram.com/pranjal_sailwal/)
 
-## Achievement Trophies and Rankings
 
-Discover my accolades and rankings as a testament to my dedication and accomplishments:
-
-(Visualization to be added soon...)
-
-## Contributions and Repositories
-
-Witness the culmination of my efforts in this creative depiction of my repositories:
-
-(Visualization to be added soon...)
-
-[![Pranjal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sailwalpranjal&show_icons=true&theme=dark)](https://github.com/sailwalpranjal/github-readme-stats)
 
 ## Open Source Contributions
 
