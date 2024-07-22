@@ -30,17 +30,12 @@ async function updateReadme(repos) {
   </div>
   
   <!-- Greeting Video -->
-  <div style="flex: 1; text-align: right;">
+  <div style="flex: 1; ">
     <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 8px; max-height: 100%;">
       <source src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
-</div>
-
-## Name
-<div align="center">
-    <img src="Components/Name.gif" alt="Name GIF" />
 </div>
 
 ## About Me
