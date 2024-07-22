@@ -13,13 +13,6 @@ I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Compute
 Thank you for taking the time to visit my profile. I look forward to connecting with you.
 ## Animated Name
 
-<div align="center">
-    <img src="Components/Name.gif" alt="Name GIF" />
-</div>
-
-
-
-
 ## Most Used Language
 
 <img src="https://myreadme.vercel.app/api/embed/sailwalpranjal?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
