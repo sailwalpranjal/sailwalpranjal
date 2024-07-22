@@ -21,7 +21,7 @@ async function updateReadme(repos) {
   const readmeContent = `
 # Welcome to my Profile! 
 
-## Name and Greeting
+## Name
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
   <!-- Name GIF -->
@@ -175,7 +175,9 @@ Embark on a journey of learning with my insightful blog posts and tutorials:
 
 **Thank you for visiting!** 
 If you found value in my repositories, consider giving them a star . 
+
 Let's embark on a journey to build something **extraordinary** together! 
+
 **Let's collaborate and innovate!** 
 
 <p align="right">
