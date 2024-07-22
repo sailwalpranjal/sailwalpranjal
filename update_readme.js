@@ -29,30 +29,33 @@ async function updateReadme(repos) {
 
 ## Contributions and Repositories
 
-### GitHub Stats
+### GitHub Stats and Streak
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=highcontrast" alt="GitHub Stats" style="width: 100%; max-width: 400px;" />
+  <table style="width: 100%; max-width: 800px; border-collapse: collapse;">
+    <tr>
+      <td style="border: none; padding: 0; width: 50%;">
+        <img src="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=highcontrast" alt="GitHub Stats" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+      </td>
+      <td style="border: none; padding: 0; width: 50%;">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=highcontrast" alt="GitHub Streak" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=${username}&theme=highcontrast" alt="GitHub Activity Graph" style="width: 100%; max-width: 600px;" />
-</div>
-
-### GitHub Streak
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=highcontrast" alt="GitHub Streak" style="width: 100%; max-width: 400px;" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=${username}&theme=highcontrast" alt="GitHub Activity Graph" style="width: 100%; max-width: 600px; border-radius: 8px;" />
 </div>
 
 ### Featured Repositories
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
   ${repos.length > 0 ? repos.map(repo => `
-  <a href="${repo.html_url}">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=highcontrast" alt="Repository Card" style="width: 100%; max-width: 400px; margin: 10px;" />
+  <a href="${repo.html_url}" style="margin: 10px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=highcontrast" alt="Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
   </a>
   `).join('') : '<p>No repositories found.</p>'}
 </div>
@@ -60,10 +63,9 @@ async function updateReadme(repos) {
 ## Reimagined ReadMe
 
 <div align="center">
-  <img src="https://myreadme.vercel.app/api/embed/${username}?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="Reimagined ReadMe" style="width: 100%; max-width: 600px;" />
+  <img src="https://myreadme.vercel.app/api/embed/${username}?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="Reimagined ReadMe" style="width: 100%; max-width: 600px; border-radius: 8px;" />
 </div>
 `;
-
   try {
     const filePath = path.join(__dirname, 'README.md');
     fs.writeFileSync(filePath, readmeContent);
