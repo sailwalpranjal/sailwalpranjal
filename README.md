@@ -3,15 +3,15 @@
 
 ## Name
 
-<div style="display: flex; align-items: center; width: 100%;">
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
   <!-- Name GIF -->
-  <div style="flex: 4; text-align: left; padding-right: 1px; overflow: hidden; position: relative;">
+  <div style="flex: 4; text-align: left; padding-right: 5px; overflow: hidden; position: relative;">
     <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: cover; width: 100%; height: auto; max-height: 100%;" />
   </div>
   
   <!-- Greeting Video -->
-  <div style="flex: 01; ">
-    <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 4px; max-height: 100%;">
+  <div style="flex: 1; ">
+    <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 8px; max-height: 100%;">
       <source src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -141,9 +141,13 @@ Let's connect and stay updated on various platforms:
 
 ## Open Source Contributions
 
+Engage with my active participation in open-source endeavors through these notable contributions:
+
 (Waiting to contribute...)
 
 ## Blog Posts and Tutorials
+
+Embark on a journey of learning with my insightful blog posts and tutorials:
 
 (Writing in progress...)
 
