@@ -23,15 +23,15 @@ async function updateReadme(repos) {
 
 ## Name
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: auto;">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: auto;">
   <!-- Name GIF -->
-  <div style="flex: 4; padding-right: 5px; overflow: hidden; display: flex; align-items: center;">
-    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: contain; width: 100%; height: auto; max-height: 100%;" />
+  <div style="flex: 1; padding-right: 5px; display: flex; align-items: center; justify-content: center;">
+    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: contain; max-width: 100%; height: auto; max-height: 100%;" />
   </div>
   
   <!-- Greeting GIF -->
-  <div style="flex: 1; display: flex; align-items: center;">
-    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.gif" alt="Greetings GIF" style="width: 70%; height: auto; max-height: 70%; object-fit: cover; border: none; border-radius: 8px;" />
+  <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.gif" alt="Greetings GIF" style="object-fit: cover; max-width: 100%; height: auto; max-height: 100%; border: none; border-radius: 8px;" />
   </div>
 </div>
 
@@ -142,7 +142,7 @@ Thank you for taking the time to visit my profile. I look forward to connecting 
 ## GitHub Profile Metrics
 
 <div align="center">
-  <img src="https://myreadme.vercel.app/api/embed/${username}?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="Reimagined ReadMe" style="width: 100%; max-width: 600px; border-radius: 8px;" />
+  <img src="https://myreadme.vercel.app/api/embed/${username}?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="Reimagined ReadMe" style="width: 100%; min-width: 600px; border-radius: 8px;" />
 </div>
 
 ## Contributions
