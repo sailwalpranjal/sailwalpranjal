@@ -126,7 +126,7 @@
 
 15. **Licensor Contact**
 
-    15.1. For questions regarding this License or related issues, contact Licensor at [Licensor's contact information]. 
+    15.1. For questions regarding this License or related issues, contact Licensor at [pranjalsailwal09@gmail.com]. 
 
     15.2. **Example**: Provide an email address or website for inquiries about the License.
 
