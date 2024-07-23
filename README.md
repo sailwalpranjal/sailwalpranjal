@@ -17,7 +17,6 @@
 
 
 
-
 ## About Me
 
 I am currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
