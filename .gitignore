@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output and temporary files
+build/
+dist/
+tmp/
+temp/
+
+# Logs
+*.log
+
+# Package distribution files
+*.tgz
+*.zip
+*.tar
+*.gz
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Git files
+.git/
+
+# npm package-lock and yarn lock files
+package-lock.json
+yarn.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Configuration files for various tools
+*.swp
+*.swo
+*.swn
+
+# GitHub workflows
+.github/
+
+# Profile 3D Contrib generated files (if generated periodically)
+profile-3d-contrib/
+
+# Files related to the project that should be ignored
+Components/
+update_readme.js
+
+# General patterns for ignoring unnecessary files
+*.bak
+*.orig
+*.rej
+*.swo
+*.swp
+*.swn
