@@ -19,7 +19,7 @@
 
 ## About Me
 
-I am currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
+I am **Pranjal Sailwal**, currently pursuing a Bachelor of Technology in Computer Science at Graphic Era Hill University, Dehradun. My academic journey is driven by a profound passion for software development, and I take great pleasure in creating innovative projects and exploring the latest advancements in technology. Here is an overview of my professional interests and activities:
 
 - **Skill Development:** I am actively enhancing my proficiency in various programming languages and frameworks to stay at the forefront of technology.
 - **Collaboration:** I am seeking opportunities to contribute to challenging open-source projects and collaborate with like-minded professionals.
