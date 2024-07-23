@@ -1,5 +1,6 @@
 
-# Welcome to my Profile!
+# Welcome to my Profile! 
+
 ## Name
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: auto;">
@@ -125,8 +126,6 @@ Thank you for taking the time to visit my profile. I look forward to connecting 
 <div align="center">
   <img src="https://myreadme.vercel.app/api/embed/sailwalpranjal?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="Reimagined ReadMe" style="width: 100%; max-width: 600px; border-radius: 8px;" />
 </div>
-
-
 
 ## Contributions
 
