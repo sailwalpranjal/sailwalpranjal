@@ -11,7 +11,7 @@
   
   <!-- Greeting GIF -->
   <div style="flex: 1; display: flex; align-items: center;">
-    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.gif" alt="Greetings GIF" style="width: 100%; height: auto; max-height: 100%; object-fit: cover; border: none; border-radius: 8px;" />
+    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.gif" alt="Greetings GIF" style="width: 70%; height: auto; max-height: 70%; object-fit: cover; border: none; border-radius: 8px;" />
   </div>
 </div>
 
