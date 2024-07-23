@@ -128,12 +128,8 @@
 
     15.1. For questions regarding this License or related issues, contact Licensor at [pranjalsailwal09@gmail.com]. 
 
-    15.2. **Example**: Provide an email address or website for inquiries about the License.
-
 16. **Additional Information**
 
     16.1. For further details about the Apache License 2.0, visit [Apache License 2.0](http://www.apache.org/licenses/).
-
-    16.2. **Example**: Refer to official Apache License documentation for more detailed guidance.
 
 ---
