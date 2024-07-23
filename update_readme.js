@@ -29,14 +29,12 @@ async function updateReadme(repos) {
     <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: contain; width: 100%; height: auto; max-height: 100%;" />
   </div>
   
-  <!-- Greeting Video -->
+  <!-- Greeting GIF -->
   <div style="flex: 1; display: flex; align-items: center;">
-    <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 8px; max-height: 100%; object-fit: cover;">
-      <source src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.gif" alt="Greetings GIF" style="width: 100%; height: auto; max-height: 100%; object-fit: cover; border: none; border-radius: 8px;" />
   </div>
 </div>
+
 
 
 ## About Me
