@@ -17,8 +17,9 @@ jobs:
           USERNAME: sailwalpranjal
       - name: Commit & Push
         run: |
+          set -e
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "generated"
-          git push
+          git commit -m "generated" || echo "No changes to commit"
+          git push || echo "Nothing to push"
