@@ -5,7 +5,7 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: auto;">
   <!-- Name GIF -->
-  <div style="flex: 4; text-align: left; padding-right: 5px; overflow: hidden; position: relative; display: flex; align-items: center;">
+  <div style="flex: 4; padding-right: 5px; overflow: hidden; display: flex; align-items: center;">
     <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: contain; width: 100%; height: auto; max-height: 100%;" />
   </div>
   
@@ -14,6 +14,7 @@
     <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.gif" alt="Greetings GIF" style="width: 100%; height: auto; max-height: 100%; object-fit: cover; border: none; border-radius: 8px;" />
   </div>
 </div>
+
 
 
 
