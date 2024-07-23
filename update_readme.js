@@ -23,20 +23,21 @@ async function updateReadme(repos) {
 
 ## Name
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: auto;">
   <!-- Name GIF -->
-  <div style="flex: 4; text-align: left; padding-right: 5px; overflow: hidden; position: relative;">
-    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: cover; width: 100%; height: auto; max-height: 100%;" />
+  <div style="flex: 4; text-align: left; padding-right: 5px; overflow: hidden; position: relative; display: flex; align-items: center;">
+    <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Name.gif" alt="Name GIF" style="object-fit: contain; width: 100%; height: auto; max-height: 100%;" />
   </div>
   
   <!-- Greeting Video -->
-  <div style="flex: 1; ">
-    <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 8px; max-height: 100%;">
+  <div style="flex: 1; display: flex; align-items: center;">
+    <video width="100%" autoplay loop muted playsinline style="border: none; border-radius: 8px; max-height: 100%; object-fit: cover;">
       <source src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/Components/Greetings.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 </div>
+
 
 ## About Me
 
@@ -140,12 +141,15 @@ Thank you for taking the time to visit my profile. I look forward to connecting 
 </div>
 
 
-## Reimagined ReadMe
+## GitHub Profile Metrics
 
 <div align="center">
   <img src="https://myreadme.vercel.app/api/embed/${username}?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="Reimagined ReadMe" style="width: 100%; max-width: 600px; border-radius: 8px;" />
 </div>
 
+## Contributions
+
+<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="Profile Night Rainbow" width="600" height="400" />
 
 ## Connect with Me
 
@@ -161,13 +165,9 @@ Let's connect and stay updated on various platforms:
 
 ## Open Source Contributions
 
-Engage with my active participation in open-source endeavors through these notable contributions:
-
 (Waiting to contribute...)
 
 ## Blog Posts and Tutorials
-
-Embark on a journey of learning with my insightful blog posts and tutorials:
 
 (Writing in progress...)
 
