@@ -134,6 +134,12 @@ Thank you for taking the time to visit my profile. I look forward to connecting 
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=LeetCode&theme=highcontrast" alt="LeetCode Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
         </a>
       </td>
+      
+      <td style="border: none; padding: 10px;">
+        <a href="https://github.com/sailwalpranjal/CipherLab">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sailwalpranjal&repo=CipherLab&theme=highcontrast" alt="Sailwal Pranjal Repository Card" style="width: 100%; max-width: 400px; border-radius: 8px;" />
+        </a>
+      </td>
     </tr>
   </table>
 </div>
