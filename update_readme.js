@@ -1,7 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-
 const username = 'sailwalpranjal';
 const maxRepos = 6;
 
