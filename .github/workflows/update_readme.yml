@@ -7,6 +7,10 @@ on:
 
 permissions:
   contents: write
+  actions: read
+  checks: read
+  issues: read
+  pull-requests: read
 
 jobs:
   update-readme:
@@ -22,30 +26,25 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: |
-          npm install axios
+        run: npm install axios
 
       - name: Run update script
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           set -e
-          # Configure Git
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions@github.com'
           
-          # Execute the update script and capture output
           node update_readme.js | tee update_readme_output.txt
           
-          # Check for changes and commit if any
-          git diff --exit-code || (
-            git add README.md &&
-            git commit -m "Update README with most visited repositories" &&
+          if ! git diff --quiet; then
+            git add README.md
+            git commit -m "Update README with most visited repositories"
             git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-          )
-          
-          # Echo message if no changes
-          echo "No changes to commit"
+          else
+            echo "No changes to commit"
+          fi
 
       - name: Display script output
         run: cat update_readme_output.txt
