@@ -87,14 +87,14 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/sailwalpranjal/assets/raw/main/resume_preview.png" alt="Resume Preview" width="60%">
+  <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/assets/resume_preview.png" alt="Resume Preview" width="60%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
 </p>
 
 <p align="center">
-  <a href="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_Resume.pdf?raw=true" target="_blank">
+  <a href="https://github.com/sailwalpranjal/sailwalpranjal/blob/main/assets/Pranjal_Resume.pdf?raw=true" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/View%20Full%20Resume-8C52FF?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Resume">
   </a>
-  <a href="https://github.com/sailwalpranjal/assets/raw/main/Pranjal_Resume.pdf" download>
+  <a href="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/assets/Pranjal_Resume.pdf" download>
     <img src="https://img.shields.io/badge/Download%20Resume-FF5722?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download Resume">
   </a>
 </p>
