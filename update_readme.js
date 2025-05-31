@@ -97,27 +97,31 @@ async function updateReadme(repos) {
 <!-- Colorful Divider -->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-
-<!-- INTERACTIVE RESUME WITH COLLAPSIBLE SECTIONS -->
 <div align="center">
   <h1>
     Resume
   </h1>
 </div>
-  <div align="center">
-    <iframe src="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_resume.pdf?raw=true"
-      width="60%" height="800px"
-      style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); border: none;">
-    </iframe>
-    <p>
-      <a href="./assets/Pranjal_resume.pdf" target="_blank">
-        <img src="https://img.shields.io/badge/View%20Full%20Resume-8C52FF?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Resume">
-      </a>
-      <a href="./assets/Pranjal_resume.pdf" download>
-        <img src="https://img.shields.io/badge/Download%20Resume-FF5722?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download Resume">
-      </a>
-    </p>
-  </div>
+<div align="center">
+
+  <!-- View and Download Resume Buttons -->
+  <p>
+    <a href="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_resume.pdf?raw=true" target="_blank">
+      <img src="https://img.shields.io/badge/View%20Full%20Resume-8C52FF?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Resume">
+    </a>
+    <a href="https://github.com/sailwalpranjal/assets/raw/main/Pranjal_resume.pdf" download>
+      <img src="https://img.shields.io/badge/Download%20Resume-FF5722?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download Resume">
+    </a>
+  </p>
+
+  <!-- Resume Preview Image -->
+  <img src="https://github.com/pranjalsailwal/pranjalsailwal/raw/main/assets/resume_preview.png"
+       alt="Resume Preview"
+       width="60%"
+       style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-top: 20px;">
+
+</div>
+
 
   <h3>💼 Work Experience</h3>
   
