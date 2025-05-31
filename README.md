@@ -87,14 +87,14 @@
 </div>
   <div align="center">
     <iframe src="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_resume.pdf?raw=true"
-          width="60%" height="800px"
-          style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); border: none;">
+      width="60%" height="800px"
+      style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); border: none;">
     </iframe>
     <p>
-      <a href="./assets/Pranjal_Resume.pdf" target="_blank">
+      <a href="./assets/Pranjal_resume.pdf" target="_blank">
         <img src="https://img.shields.io/badge/View%20Full%20Resume-8C52FF?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Resume">
       </a>
-      <a href="./assets/Pranjal_Resume.pdf" download>
+      <a href="./assets/Pranjal_resume.pdf" download>
         <img src="https://img.shields.io/badge/Download%20Resume-FF5722?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download Resume">
       </a>
     </p>
