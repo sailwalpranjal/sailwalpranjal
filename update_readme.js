@@ -104,20 +104,20 @@ async function updateReadme(repos) {
     Resume
   </h1>
 </div>
-<!-- Resume Preview -->
+
 <p align="center">
-  <img src="https://github.com/sailwalpranjal/sailwalpranjal/raw/main/assets/resume_preview.png" alt="Resume Preview" width="60%">
+  <img src="https://github.com/sailwalpranjal/assets/raw/main/resume_preview.png" alt="Resume Preview" width="60%">
 </p>
 
-<!-- View and Download Buttons -->
 <p align="center">
-  <a href="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_resume.pdf?raw=true" target="_blank">
+  <a href="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_Resume.pdf?raw=true" target="_blank">
     <img src="https://img.shields.io/badge/View%20Full%20Resume-8C52FF?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Resume">
   </a>
-  <a href="https://github.com/sailwalpranjal/assets/raw/main/Pranjal_resume.pdf">
+  <a href="https://github.com/sailwalpranjal/assets/raw/main/Pranjal_Resume.pdf" download>
     <img src="https://img.shields.io/badge/Download%20Resume-FF5722?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download Resume">
   </a>
 </p>
+
 
 
   <h3>💼 Work Experience</h3>
