@@ -105,7 +105,10 @@ async function updateReadme(repos) {
   </h1>
 </div>
   <div align="center">
-    <img src="https://github.com/pranjalsailwal/pranjalsailwal/raw/main/assets/resume_preview.png" alt="Resume Preview" width="60%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+    <iframe src="https://github.com/sailwalpranjal/assets/blob/main/Pranjal_resume.pdf?raw=true"
+      width="60%" height="800px"
+      style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); border: none;">
+    </iframe>
     <p>
       <a href="./assets/Pranjal_resume.pdf" target="_blank">
         <img src="https://img.shields.io/badge/View%20Full%20Resume-8C52FF?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="View Resume">
