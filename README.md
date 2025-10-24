@@ -592,7 +592,7 @@ type CollaborationEngine struct {
 
 <br/>
 
-<a href="https://github.com/sailwalpranjal/CodeBrain">
+<a href="https://pblproject-beta.vercel.app/">
 <img src="https://img.shields.io/badge/VIEW_DEMO-764ba2?style=for-the-badge&logo=google-chrome&logoColor=white"/>
 </a>
 
@@ -669,7 +669,7 @@ const graphicsEngine = {
 
 <br/>
 
-<a href="https://sailwalpranjal.github.io/solque">
+<a href="https://solque-oli7.vercel.app/">
 <img src="https://img.shields.io/badge/LIVE_DEMO-f093fb?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
@@ -744,7 +744,7 @@ class EnvironmentalAnalyzer:
 
 <br/>
 
-<a href="https://github.com/sailwalpranjal/NO2-Sentinel">
+<a href="https://github.com/sailwalpranjal/SentinelNO2-Detection">
 <img src="https://img.shields.io/badge/VIEW_REPOSITORY-667eea?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -1113,7 +1113,7 @@ const professionalProfile = {
   linkedin: "linkedin.com/in/pranjal-sailwal",
   github: "github.com/sailwalpranjal",
   phone: "+91-79867-10627",
-  location: "Delhi, India",
+  location: "Dehradun, India",
   timezone: "IST (UTC+5:30)",
   status: "Open to opportunities",
   interests: [
