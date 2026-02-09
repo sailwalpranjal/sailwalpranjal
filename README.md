@@ -5,8 +5,8 @@
 
 <!-- CUSTOM ANIMATED TYPING WITH MULTIPLE COLORS -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2000&pause=1000&color=667EEA&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1200&height=140&lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+Go;WebGL+%E2%80%A2+Three.js+%E2%80%A2+WebAssembly+%E2%80%A2+TensorFlow;3+DOI+Publications;Microservices+%E2%80%A2+Cloud-Native+%E2%80%A2+System+Architecture;80%2B+Concurrent+Users+%7C+40%25+Performance+Optimization;Real-Time+Systems+%E2%80%A2+GPU+Programming+%E2%80%A2+ML+Pipelines">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2000&pause=1000&color=667EEA&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1200&height=140&lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+Go;WebGL+%E2%80%A2+Three.js+%E2%80%A2+WebAssembly+%E2%80%A2+TensorFlow;3+DOI+Publications;Microservices+%E2%80%A2+Cloud-Native+%E2%80%A2+System+Architecture;80%2B+Concurrent+Users+%7C+40%25+Performance+Optimization;Real-Time+Systems+%E2%80%A2+GPU+Programming+%E2%80%A2+ML+Pipelines" alt="Typing SVG" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2000&pause=1000&color=667EEA&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1200&height=140&lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+Go;WebGL+%E2%80%A2+Three.js+%E2%80%A2+WebAssembly+%E2%80%A2+TensorFlow;+3+DOI+Preprint;Microservices+%E2%80%A2+Cloud-Native+%E2%80%A2+System+Architecture;80%2B+Concurrent+Users+%7C+40%25+Performance+Optimization;Real-Time+Systems+%E2%80%A2+GPU+Programming+%E2%80%A2+ML+Pipelines">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2000&pause=1000&color=667EEA&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1200&height=140&lines=React+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+Go;WebGL+%E2%80%A2+Three.js+%E2%80%A2+WebAssembly+%E2%80%A2+TensorFlow;+3+DOI+Preprint;Microservices+%E2%80%A2+Cloud-Native+%E2%80%A2+System+Architecture;80%2B+Concurrent+Users+%7C+40%25+Performance+Optimization;Real-Time+Systems+%E2%80%A2+GPU+Programming+%E2%80%A2+ML+Pipelines" alt="Typing SVG" />
 </picture>
 
 <br/>
@@ -87,7 +87,7 @@
 <!-- RESEARCH PUBLICATIONS MATRIX -->
 <div align="center">
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> RESEARCH PUBLICATIONS & CONTRIBUTIONS
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> Preprint PUBLICATIONS & CONTRIBUTIONS
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
