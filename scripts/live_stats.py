@@ -8,7 +8,7 @@ from typo import path as P, width as W_, wrap
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets"
-PINS = [p[0] for p in json.loads((ROOT / "ledger.json").read_text())["pins"]]
+PINS = [p[0] for p in json.loads((ROOT / "ledger.json").read_text(encoding="utf-8"))["pins"]]
 DEVTO = "sailwalpranjal"
 PALETTES = [("vermilion", "#ff5b2e", "#e0400d"), ("cobalt", "#4f7cff", "#2a56e0"), ("acid", "#c6ff3d", "#6d9100"), ("emerald", "#1fd18a", "#0e8a58"),
             ("magenta", "#ff4fa3", "#d11d7c"), ("amber", "#ffb020", "#b36b00"), ("cyan", "#27d9f0", "#0b8aa0"), ("violet", "#9a7bff", "#6b45e0")]
@@ -24,7 +24,12 @@ def api(url, token=None, body=None):
         return json.load(r)
 
 
-def clean(s): return "".join(c if 32 <= ord(c) < 383 else "?" for c in (s or "")).strip()
+_PUNCT = {"‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": "-", " ": " "}
+
+
+def clean(s):
+    s = "".join(_PUNCT.get(c, c) for c in (s or ""))
+    return "".join(c if 32 <= ord(c) < 383 else "?" for c in s).strip()
 def fit(s, font, size, maxw, ls=0):
     s = clean(s)
     if W_(s, font, size, ls) <= maxw: return s
@@ -38,7 +43,7 @@ def ago(iso, today):
 def fetch(user, token):
     today = datetime.date.today()
     since = (datetime.datetime.utcnow() - datetime.timedelta(days=364)).strftime("%Y-%m-%dT00:00:00Z")
-    q = {"query": 'query($u:String!,$f:DateTime!){user(login:$u){repositories(ownerAffiliation:OWNER,isFork:false,privacy:PUBLIC){totalCount}'
+    q = {"query": 'query($u:String!,$f:DateTime!){user(login:$u){repositories(ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC){totalCount}'
                   ' contributionsCollection(from:$f){contributionCalendar{totalContributions weeks{contributionDays{contributionCount date}}}}}}',
          "variables": {"u": user, "f": since}}
     g = api("https://api.github.com/graphql", token, q)["data"]["user"]
@@ -227,4 +232,12 @@ if __name__ == "__main__":
                    meta={p: dict(desc="LSM-tree storage engine in Java: WAL, SSTables, MVCC snapshots, leveled compaction. Tested with JUnit and JCStress.", lang="Java", stars=3, pushed=td + "T09:00:00Z") for p in PINS},
                    posts=[("How I traced a 4x cost gap to the post-click step", 7, 12, "2026-10-02T00:00:00Z"), ("Writing tests for a CLI that has to say what it cannot catch", 6, 9, "2026-09-20T00:00:00Z")]))
     else:
-        write(fetch(sys.argv[1], os.environ["GITHUB_TOKEN"]))
+        # If GitHub cannot be reached or answers badly, keep the last good visuals instead of failing.
+        try:
+            data = fetch(sys.argv[1], os.environ.get("GITHUB_TOKEN"))
+            if not data.get("days"):
+                raise ValueError("GitHub returned no contribution data")
+        except Exception as exc:
+            print(f"::warning::live_stats: {type(exc).__name__}: {exc}; keeping the existing visuals")
+            sys.exit(0)
+        write(data)

@@ -6,7 +6,7 @@ from typo import path as P, width as W_
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets"; OUT.mkdir(exist_ok=True)
-L = json.loads((ROOT / "ledger.json").read_text())
+L = json.loads((ROOT / "ledger.json").read_text(encoding="utf-8"))
 
 TH = {
     "dark": dict(bg="#0b0b0c", panel="#111113", ink="#f1eee6", mute="#8c897f", dim="#4a4944", rule="#242427", acc="#ff5b2e"),
@@ -18,7 +18,7 @@ PALETTES = [("vermilion", "#ff5b2e", "#e0400d"), ("cobalt", "#4f7cff", "#2a56e0"
 WEEK = datetime.date.today().isocalendar()[1]
 PNAME, _dk, _lt = PALETTES[WEEK % len(PALETTES)]
 TH["dark"]["acc"], TH["light"]["acc"] = _dk, _lt   # the whole profile re-colours every Monday
-ADS = [(int(r["xyz_campaign_id"]), float(r["Spent"]), int(r["Approved_Conversion"])) for r in csv.DictReader(open(ROOT / "data/adsets.csv"))]
+ADS = [(int(r["xyz_campaign_id"]), float(r["Spent"]), int(r["Approved_Conversion"])) for r in csv.DictReader(open(ROOT / "data/adsets.csv", encoding="utf-8", newline=""))]
 
 
 def svg(w, h, body, t, label, bg=True, radius=0):
