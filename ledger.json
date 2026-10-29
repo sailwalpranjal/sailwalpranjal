@@ -67,7 +67,7 @@
      "ad sets analysed"
     ],
     [
-     "44",
+     "64",
      "tests passing"
     ],
     [
@@ -158,8 +158,8 @@
    "tier": "RAN"
   },
   {
-   "claim": "Funnel lab: 44 automated tests",
-   "how": "ran: pytest -q, clean venv",
+   "claim": "Funnel lab: 64 automated tests",
+   "how": "ran: pytest -q, fresh venv",
    "tier": "RAN"
   },
   {
@@ -191,6 +191,21 @@
    "claim": "Python Programming internship, 1 Jan – 1 Apr 2026",
    "how": "certificate ID OPYVTP4CKKXES",
    "tier": "DOC"
+  },
+  {
+   "claim": "SyncState: 34 tests, CRDT convergence",
+   "how": "ran: npm test (vitest, fast-check)",
+   "tier": "RAN"
+  },
+  {
+   "claim": "decision-pack: 264 tests, 95% coverage",
+   "how": "ran: pytest --cov",
+   "tier": "RAN"
+  },
+  {
+   "claim": "decision-pack: 1M-row analysis in 8.3-8.9 s",
+   "how": "ran: scripts/perf_check.py, 3 runs",
+   "tier": "RAN"
   }
  ],
  "details": {
@@ -199,7 +214,7 @@
    "body": [
     "**Problem.** Two campaigns spent $55,662 and $2,893 (19.24× apart) and their cost per approved conversion differed 4.04× ($15.81 vs $63.83).",
     "**Decision it had to support.** Is the gap media cost (CPM), click quality (CTR) or what happens after the click? That decides whether to rework targeting or the landing flow.",
-    "**Method.** A sequential-substitution cost bridge: CPM −$3.74, CTR +$4.66, post-click conversion +$47.10, which sums to the $48.02 gap. Click→approved fell from 9.22% to 2.42%, and 92.6% of clicks in the weaker campaign never became an enquiry.",
+    "**Method.** A sequential-substitution cost bridge: CPM −$3.74, CTR +$4.66, post-click conversion +$47.10, which sums to the $48.02 gap. Click→approved fell from 9.22% to 2.42%, and 92.6% of clicks in the weaker campaign never became an enquiry. Averaged over every substitution order (a Shapley split), the post-click share is 96.8%; across the six orders the sequential share ranges from 70.8% to 128.5%.",
     "**Limits, stated in the repo.** Observational data from public anonymised ad sets; the campaigns did not run concurrently as an A/B test; attribution order matters; CAC and ROAS are deliberately not computed.",
     "**What comes next.** Five ICE-scored hypotheses sit in the experiment backlog. They are proposals and have not been run."
    ]
@@ -292,7 +307,7 @@
      "post-click"
     ],
     [
-     "44",
+     "64",
      "tests"
     ]
    ]
@@ -352,8 +367,8 @@
    "line": "Collaborative editor on Yjs CRDTs with offline persistence.",
    "metrics": [
     [
-     "CRDT",
-     "merge"
+     "34",
+     "tests"
     ],
     [
      "offline",
