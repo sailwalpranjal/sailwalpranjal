@@ -1,0 +1,391 @@
+{
+ "hero_tiles": [
+  {
+   "big": "4.04×",
+   "small": "cost per approved conversion, $15.81 → $63.83",
+   "tag": "RAN"
+  },
+  {
+   "big": "98.1%",
+   "small": "of that gap opened after the click",
+   "tag": "RAN"
+  },
+  {
+   "big": "225",
+   "small": "tests behind a CLI that states its blind spots",
+   "tag": "RAN"
+  }
+ ],
+ "principles": [
+  {
+   "title": "Find the decision",
+   "lines": [
+    "Start from what someone must",
+    "choose, then pick the metric."
+   ],
+   "proof": "funnel lab · metric_definitions.md"
+  },
+  {
+   "title": "Draw the boundary",
+   "lines": [
+    "Write down what the product",
+    "will not claim or catch."
+   ],
+   "proof": "known-false-negatives.md"
+  },
+  {
+   "title": "Prove it runs",
+   "lines": [
+    "Tests, concurrency checks and",
+    "numbers anyone can re-run."
+   ],
+   "proof": "go test · pytest · jcstress"
+  },
+  {
+   "title": "Write it down",
+   "lines": [
+    "Design docs, limits, and posts",
+    "that outlive the sprint."
+   ],
+   "proof": "docs/ · 20 posts on Dev.to"
+  }
+ ],
+ "cases": [
+  {
+   "kicker": "PRODUCT ANALYTICS · GROWTH",
+   "title": "Funnel Intelligence Lab",
+   "lines": [
+    "One campaign cost 4.04× more per approved conversion.",
+    "The bridge traced 98.1% of the gap to what happens after",
+    "the click: 92.6% of clicks never became an enquiry.",
+    "Metric definitions and limits are documented, and CAC is",
+    "deliberately not claimed."
+   ],
+   "metrics": [
+    [
+     "1,143",
+     "ad sets analysed"
+    ],
+    [
+     "44",
+     "tests passing"
+    ],
+    [
+     "16",
+     "dashboard tabs"
+    ]
+   ]
+  },
+  {
+   "kicker": "DEVELOPER TOOLING · PRODUCT BOUNDARY",
+   "title": "Appwrite Migration Guard",
+   "lines": [
+    "A read-only Go CLI that snapshots two Appwrite projects and",
+    "answers one question: is this migration safe? It returns PASS,",
+    "WARN or BLOCK with a reason, never a fake confidence score.",
+    "Its docs state the assurance boundary and the known false",
+    "negatives. Self-declared pre-alpha."
+   ],
+   "metrics": [
+    [
+     "225",
+     "tests passing"
+    ],
+    [
+     "8",
+     "commands"
+    ],
+    [
+     "6",
+     "design docs"
+    ]
+   ]
+  },
+  {
+   "kicker": "DATA PLATFORM · TEAM OF FOUR · SIX MONTHS",
+   "title": "AetherScan",
+   "lines": [
+    "An air-quality analytics platform that reconciles many public",
+    "sources behind one registry that records each source's licence,",
+    "rate limit and provenance. I worked on the backend.",
+    "The quantum module runs on a simulator only, and the limits",
+    "are documented in LIMITATIONS.md."
+   ],
+   "metrics": [
+    [
+     "232",
+     "tests passing"
+    ],
+    [
+     "53",
+     "route handlers"
+    ],
+    [
+     "11",
+     "data sources"
+    ]
+   ]
+  },
+  {
+   "kicker": "SYSTEMS DEPTH · STORAGE ENGINE",
+   "title": "NitroDB",
+   "lines": [
+    "An LSM-tree storage engine in Java: write-ahead log, memtable,",
+    "SSTables, bloom filters, MVCC snapshots and leveled compaction,",
+    "with concurrency checked by JCStress rather than assumed.",
+    "It shows how I learn a hard domain: from papers, with tests."
+   ],
+   "metrics": [
+    [
+     "68",
+     "unit tests"
+    ],
+    [
+     "42/42",
+     "JCStress passed"
+    ],
+    [
+     "9",
+     "engine packages"
+    ]
+   ]
+  }
+ ],
+ "ledger": [
+  {
+   "claim": "Funnel lab: 4.04× cost gap, 98.1% post-click share",
+   "how": "ran: pandas recompute on the raw CSV",
+   "tier": "RAN"
+  },
+  {
+   "claim": "Funnel lab: 44 automated tests",
+   "how": "ran: pytest -q, clean venv",
+   "tier": "RAN"
+  },
+  {
+   "claim": "Migration Guard: 225 tests, 8 commands",
+   "how": "ran: go test ./... ; amg --help",
+   "tier": "RAN"
+  },
+  {
+   "claim": "AetherScan backend: 232 pass, 2 skipped",
+   "how": "ran: pytest (external APIs mocked)",
+   "tier": "RAN"
+  },
+  {
+   "claim": "NitroDB: 68 tests, 42/42 JCStress",
+   "how": "ran: mvn test ; jcstress quick mode",
+   "tier": "RAN"
+  },
+  {
+   "claim": "AetherScan: 53 route handlers, 11 data sources",
+   "how": "read: source and registry doc",
+   "tier": "READ"
+  },
+  {
+   "claim": "AetherScan: team of four, six months, quantum on simulator",
+   "how": "read: README and LIMITATIONS.md",
+   "tier": "READ"
+  },
+  {
+   "claim": "Python Programming internship, 1 Jan – 1 Apr 2026",
+   "how": "certificate ID OPYVTP4CKKXES",
+   "tier": "DOC"
+  }
+ ],
+ "details": {
+  "funnel": {
+   "summary": "Case notes: problem · decision · limits",
+   "body": [
+    "**Problem.** Two campaigns spent $55,662 and $2,893 (19.24× apart) and their cost per approved conversion differed 4.04× ($15.81 vs $63.83).",
+    "**Decision it had to support.** Is the gap media cost (CPM), click quality (CTR) or what happens after the click? That decides whether to rework targeting or the landing flow.",
+    "**Method.** A sequential-substitution cost bridge: CPM −$3.74, CTR +$4.66, post-click conversion +$47.10, which sums to the $48.02 gap. Click→approved fell from 9.22% to 2.42%, and 92.6% of clicks in the weaker campaign never became an enquiry.",
+    "**Limits, stated in the repo.** Observational data from public anonymised ad sets; the campaigns did not run concurrently as an A/B test; attribution order matters; CAC and ROAS are deliberately not computed.",
+    "**What comes next.** Five ICE-scored hypotheses sit in the experiment backlog. They are proposals and have not been run."
+   ]
+  },
+  "guard": {
+   "summary": "Case notes: problem · decision · limits",
+   "body": [
+    "**Problem.** A backend-as-a-service migration can change a project in ways nobody notices until something breaks.",
+    "**Decision.** Return one of three verdicts, PASS, WARN or BLOCK, each with a reason. There is no numeric confidence score, because a score would imply precision the tool does not have.",
+    "**Boundary, written down.** `docs/assurance-boundary.md` says what a PASS does and does not mean, and `docs/known-false-negatives.md` lists what the tool can miss.",
+    "**Evidence.** 225 passing Go tests, 8 commands, and a fault-injection lab. The README also reports 11 of 11 planted changes caught in a live run; I have not been able to re-run that myself.",
+    "**Status.** Self-declared pre-alpha, with no adoption claims."
+   ]
+  },
+  "aether": {
+   "summary": "Case notes: problem · decision · limits",
+   "body": [
+    "**Problem.** Public air-quality sources differ in coverage, licence and rate limits, so combining them needs more than concatenation.",
+    "**Decision.** Put every source behind one registry that records licence, rate limit and provenance, then build the API on top (53 route handlers).",
+    "**My part.** Backend, on a team of four over six months.",
+    "**Limits I list myself.** The quantum module runs on a simulator and the repo claims no speed-up. The database is SQLite today, with PostgreSQL planned. The access log is in memory."
+   ]
+  },
+  "nitro": {
+   "summary": "Case notes: what it shows",
+   "body": [
+    "**What it is.** An LSM-tree storage engine in Java with a write-ahead log, memtable, SSTables, bloom filters, MVCC snapshots, an off-heap block cache and leveled compaction.",
+    "**How I checked it.** 68 unit tests, plus JCStress concurrency tests (3 classes, 42 of 42 outcomes passed in quick mode). JMH benchmark classes exist; I publish no benchmark numbers."
+   ]
+  }
+ },
+ "pins": [
+  [
+   "Growth-Campaign-Funnel-Intelligence-Lab",
+   "Funnel analytics: traces a 4.04× cost-per-conversion gap to its cause. SQL, Python, live 16-tab dashboard.",
+   "analytics, sql, python, product-analytics, dashboard"
+  ],
+  [
+   "appwrite-migration-guard",
+   "Read-only Go CLI that compares two Appwrite projects and returns PASS/WARN/BLOCK with a reason. Documents its own false negatives.",
+   "go, cli, appwrite, migration, developer-tools"
+  ],
+  [
+   "AetherScan",
+   "Air-quality analytics platform: FastAPI backend, source registry (licence, rate limit, provenance), Next.js front end. Team of four.",
+   "fastapi, nextjs, data-platform, air-quality"
+  ],
+  [
+   "NitroDB",
+   "LSM-tree storage engine in Java: WAL, SSTables, MVCC snapshots, leveled compaction. Tested with JUnit and JCStress.",
+   "java, lsm-tree, storage-engine, mvcc, jcstress"
+  ],
+  [
+   "syncstate",
+   "Collaborative document editor on Yjs CRDTs with offline persistence.",
+   "crdt, yjs, collaboration, typescript"
+  ]
+ ],
+ "ticker": [
+  "4.04x cost-per-conversion gap, 98.1% of it after the click (pandas recompute)",
+  "225 Go tests passing in appwrite-migration-guard (go test ./...)",
+  "232 backend tests passing in AetherScan, 2 skipped (pytest)",
+  "68 unit tests and 42/42 JCStress outcomes in NitroDB (mvn test, jcstress)",
+  "every number on this page has a RAN, READ or DOC tag below"
+ ],
+ "banner_chips": [
+  [
+   "4.04×",
+   "cost gap traced to its cause"
+  ],
+  [
+   "225",
+   "tests behind a Go CLI"
+  ],
+  [
+   "232",
+   "tests behind a data platform"
+  ]
+ ],
+ "social": {
+  "Growth-Campaign-Funnel-Intelligence-Lab": {
+   "line": "Funnel analytics that traces a 4.04x cost-per-conversion gap to its cause.",
+   "metrics": [
+    [
+     "4.04×",
+     "cost gap"
+    ],
+    [
+     "98.1%",
+     "post-click"
+    ],
+    [
+     "44",
+     "tests"
+    ]
+   ]
+  },
+  "appwrite-migration-guard": {
+   "line": "Read-only Go CLI: PASS, WARN or BLOCK for a migration, always with a reason.",
+   "metrics": [
+    [
+     "225",
+     "tests"
+    ],
+    [
+     "8",
+     "commands"
+    ],
+    [
+     "6",
+     "design docs"
+    ]
+   ]
+  },
+  "AetherScan": {
+   "line": "Air-quality analytics platform behind a registry of licensed, provenance-tracked sources.",
+   "metrics": [
+    [
+     "232",
+     "tests"
+    ],
+    [
+     "53",
+     "routes"
+    ],
+    [
+     "11",
+     "sources"
+    ]
+   ]
+  },
+  "NitroDB": {
+   "line": "LSM-tree storage engine in Java, with concurrency checked by JCStress.",
+   "metrics": [
+    [
+     "68",
+     "tests"
+    ],
+    [
+     "42/42",
+     "JCStress"
+    ],
+    [
+     "9",
+     "packages"
+    ]
+   ]
+  },
+  "syncstate": {
+   "line": "Collaborative editor on Yjs CRDTs with offline persistence.",
+   "metrics": [
+    [
+     "CRDT",
+     "merge"
+    ],
+    [
+     "offline",
+     "capable"
+    ],
+    [
+     "live",
+     "demo"
+    ]
+   ]
+  }
+ },
+ "hero_stats": [
+  [
+   "4.04×",
+   "cost per approved conversion",
+   "RAN"
+  ],
+  [
+   "98.1%",
+   "of that gap opened after the click",
+   "RAN"
+  ],
+  [
+   "225",
+   "tests behind a Go CLI that states its blind spots",
+   "RAN"
+  ],
+  [
+   "232",
+   "tests behind a multi-source data platform",
+   "RAN"
+  ]
+ ]
+}
